@@ -1,46 +1,50 @@
+
 # Password Generator
 
-This is a simple password generator implemented in Python.
+This is a simple password generator implemented using Python and Gradio UI. It generates a random password of a specified length.
 
-## Description
+## Usage
 
-This program generates random passwords of the desired length using a combination of letters (both uppercase and lowercase), digits, and special characters.
-
-To use the password generator:
-
-1. Clone the repository to your local machine:
-    ```bash
-    git clone https://github.com/mustafaansarii/PythonVerse.git
-    ```
-
-2. Navigate to the `Password Generator` directory:
-    ```bash
-    cd PythonVerse/Password Generator
-    ```
-
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. Run the `password generator.py` file using Python:
-    ```bash
-    python password generator.py
-    ```
-
-5. Enter the desired length of the password when prompted.
+1. Enter the desired length of the password in the provided textbox.
+2. Click the "Submit" button or press Enter.
+3. The generator will create a random password of the specified length and display it.
 
 ## Example
 
-![Gradio UI](/Password%20Generator/assets/gradio1.png)
+- Entering `12` will generate a random password of length 12.
+- Entering `0` or a negative number will display an error message.
 
-## Dependencies
+## Getting Started
 
-- Python 3.x
-- `random` module
-- `string` module
-- `gradio` module (for GUI interface)
+To run the password generator on your local machine, follow these steps:
 
-4. After pasting the code, click on the "Commit new file" button at the bottom of the page to save your changes.
+1. Clone this repository:
 
-This `README.md` file provides an overview of your project, instructions on how to use it, an example of its usage, dependencies, contributors, and licensing information. Make sure to replace the example usage with the appropriate output from your program.
+   ```bash
+   git clone https://github.com/mustafaansarii/Password-Generator
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd PASSWORD GENERATOR
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the Python script:
+
+   ```bash
+   password generator.py
+   ```
+
+5. Open your web browser and navigate to the provided URL.
+
+## Customization
+
+You can customize the password length or modify the character set used for generating passwords by modifying the Python script (`password generator.py`). You can also enhance the user interface or add more features as needed.
+
