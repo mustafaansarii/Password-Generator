@@ -12,6 +12,7 @@ This is a simple password generator implemented using Python and Gradio UI. It g
 ## Example
 
 - Entering `12` will generate a random password of length 12.
+![  password ](/assets/gradio1.png)
 - Entering `0` or a negative number will display an error message.
 
 ## Getting Started
